@@ -1,6 +1,4 @@
 package dev.harshit.services;
-
-public class LibraryService {
-
+    public class LibraryService {
 
 }
