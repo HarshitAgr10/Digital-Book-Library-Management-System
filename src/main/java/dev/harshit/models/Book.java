@@ -72,7 +72,7 @@ public class Book {
     // Returns a formatted string representing the book details.
     @Override
     public String toString() {
-        return String.format("Book ID: %s | Title: %s | Author %s | Genre: %s | Status: %s",
+        return String.format("Book ID: %s | Title: %s | Author: %s | Genre: %s | Status: %s",
                 bookID, title, author, genre, bookAvailabilityStatus);
     }
 
