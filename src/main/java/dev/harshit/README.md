@@ -20,19 +20,29 @@ Ensure you have the following installed:
 Java 17+ (or OpenJDK 17)
 Git (optional, if cloning)
 An IDE like IntelliJ IDEA (recommended)
+Docker
 
-- Clone the Repository
-git clone https://github.com/HarshitAgr10/Digital-Book-Library-Management-System
-cd Digital-Book-Library-Management-System
 
--  Compile and Run 
-simply run Main.java.
+
+
+- Running the Application with Docker
+
+To run this console-based application using Docker, follow these steps:
+
+1. Pull the Docker Image:
+   docker pull harshitag10/digital-library:latest
+
+2. Run the Application:
+   docker run --rm -it harshitag10/digital-library
+
+
 
 -> How to Use
 Run the application
 Choose an option (1-7) from the display menu
 Perform actions like adding, viewing, updating, or deleting books
 Type 7 to exit
+
 
 
 
